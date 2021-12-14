@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/task1/app/src/main/res/layout/constraintlayout.xml" value="0.18568840579710144" />
+        <entry key="..\:/task1/app/src/main/res/layout-large/constraintlayout.xml" value="0.5" />
+        <entry key="..\:/task1/app/src/main/res/layout-small/constraintlayout.xml" value="0.67" />
+        <entry key="..\:/task1/app/src/main/res/layout-xlarge/constraintlayout.xml" value="0.22" />
+        <entry key="..\:/task1/app/src/main/res/layout/constraintlayout.xml" value="0.2" />
         <entry key="..\:/task1/app/src/main/res/layout/linearlayout.xml" value="0.25" />
         <entry key="..\:/task1/app/src/main/res/layout/relativelayout.xml" value="0.25" />
         <entry key="..\:/task1/app/src/main/res/menu/task1.xml" value="0.20416666666666666" />

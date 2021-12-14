@@ -117,7 +117,7 @@
                 android:layout_marginLeft="220sp"
                 android:layout_marginTop="50sp"
                 android:fontFamily="sans-serif-black"
-                android:text="Edit Contact"
+                android:text="View Contact"
                 android:textSize="16sp" />
 
         </androidx.cardview.widget.CardView>
