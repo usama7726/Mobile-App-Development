@@ -18,6 +18,10 @@ class MainActivity: AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.relativelayout)
         val btn1:Button=findViewById(R.id.button5)
+	val btn2 = findViewById<Button>(R.id.button6)
+	btn2.setOnClickListener{
+	capturePhoto()
+	}
         btn1.setOnClickListener {
         viewContact()
             dialPhoneNumber()
@@ -39,4 +43,12 @@ class MainActivity: AppCompatActivity() {
             startActivity(intent)
         }
     }
+
+fun capturePhoto() {
+    val intent = Intent(MediaStore.INTENT_ACTION_STILL_IMAGE_CAMERA)
+    if (intent.resolveActivity(packageManager) != null) {
+var REQUEST_IMAGE_CAPTURE = 1
+        startActivityForResult(intent, REQUEST_IMAGE_CAPTURE)
+    }
+}
 }
