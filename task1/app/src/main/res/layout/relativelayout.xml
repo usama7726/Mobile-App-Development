@@ -120,6 +120,14 @@
                 android:text="View Contact"
                 android:textSize="16sp" />
 
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13sp"
+                android:layout_marginTop="150sp"
+                android:text="Button" />
+
         </androidx.cardview.widget.CardView>
 
 
